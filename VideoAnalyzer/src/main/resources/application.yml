@@ -1,0 +1,8 @@
+com:
+  mayur:
+    VideoPersistence:
+      kafka:
+        bootstrap-servers: localhost:9093
+        video-analysis-request-group-id: video-analysis-request-group-handler
+server:
+  port: 8091

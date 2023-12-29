@@ -1,0 +1,7 @@
+com:
+  mayur:
+    VideoPersistence:
+      kafka:
+        bootstrap-servers: localhost:9093
+server:
+  port: 8090
