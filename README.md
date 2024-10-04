@@ -1,6 +1,6 @@
-# Example of an Event Driven Microservice
+# Event-Driven Video Compliance Check System
 
-The proof of concept (POC) showcases the implementation of Kafka for event-driven microservices, specifically tailored for billing systems. Notably, the POC incorporates the use of the exactly-once delivery model, emphasizing the reliability and consistency of message processing within the system.
+This project is a Proof of Concept (POC) that demonstrates an Event-Driven Video Compliance Check System. It utilizes Spring Boot and Apache Kafka to implement a robust event-driven architecture for asynchronously scanning videos for restricted or copyrighted content. By leveraging Kafka’s distributed messaging capabilities, the system ensures real-time processing and efficient communication between services, enabling quick detection of compliance violations in video libraries. This POC showcases the potential of integrating Spring Boot and Kafka for scalable content monitoring solutions.
 
 In this example, the Video Analyzer microservice analyzes the uploaded video for any unusual content, providing an added layer of security and content moderation.
 
